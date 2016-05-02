@@ -13,11 +13,13 @@ public class ExamplePaulGraham {
 		 * Character-by-character sentence prediction and generation, closely following the example here:
 		 * http://cs.stanford.edu/people/karpathy/recurrentjs/
 		*/
-		
+
+		System.out.println("Starting time: " + System.currentTimeMillis() / 1000);
+
 		String textSource = "PaulGraham";
 		DataSet data = new TextGeneration("datasets/text/"+textSource+".txt");
 		String savePath = "saved_models/"+textSource+".ser";
-		boolean initFromSaved = true; //set this to false to start with a fresh model
+		boolean initFromSaved = false; //set this to false to start with a fresh model
 		boolean overwriteSaved = true;
 		
 		TextGeneration.reportSequenceLength = 100;
@@ -41,6 +43,6 @@ public class ExamplePaulGraham {
 		
 		Trainer.train(trainingEpochs, learningRate, lstm, data, reportEveryNthEpoch, initFromSaved, overwriteSaved, savePath, rng);
 		
-		System.out.println("done.");
+		System.out.println("done." + System.currentTimeMillis() / 1000);
 	}
 }

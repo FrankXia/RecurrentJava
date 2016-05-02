@@ -5,7 +5,9 @@ import java.util.List;
 import matrix.Matrix;
 import model.Nonlinearity;
 
-
+/**
+ * See excellent blog on backpropagation http://colah.github.io/posts/2015-08-Backprop/
+ */
 public class Graph {
 	boolean applyBackprop;
 	

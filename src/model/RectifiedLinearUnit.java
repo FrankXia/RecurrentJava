@@ -13,7 +13,12 @@ public class RectifiedLinearUnit implements Nonlinearity {
 	public RectifiedLinearUnit(double slope) {
 		this.slope = slope;
 	}
-	
+
+	/**
+	 * Parametric/Leaky ReLU
+	 * @param x input value
+	 * @return
+     */
 	@Override
 	public double forward(double x) {
 		if (x >= 0) {
