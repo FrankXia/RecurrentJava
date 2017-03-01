@@ -1,0 +1,21 @@
+{
+  "path":"",
+  "clusterName":"default",
+  "serviceName":"FAA-Stream6",
+  "geometryType":"esriGeometryPoint",
+  "objectIdStrategy":"ObjectId64Bit",
+  "rollingIndexStrategy":"Daily",
+  "overrideExisting":false,
+  "geoEventDefinitionGUID":"3bf4265e-31ad-4686-b8f0-78786b6c3cdb",
+  "displayFieldName":"AircraftModel",
+  "dataSourceLayerName":"FAA-Stream6",
+  "dataSourceName":"",
+  "replicationFactor":0,
+  "numberOfShards":3,
+  "serviceType":"None",
+  "timeInterval":10,
+  "timeIntervalUnits":"esriTimeUnitsSeconds",
+  "hasLiveData":true,
+  "layerDrawingInfo":"{\"renderer\":{\"type\":\"aggregation\",\"style\":\"Grid\",\"featureThreshold\":0,\"lodOffset\":0,\"minBinSizeInPixels\":10,\"labels\":{\"color\":[0,0,0,255],\"font\":\"Arial\",\"size\":12,\"style\":\"PLAIN\",\"format\":\"#.##\"},\"binRenderer\":{\"type\":\"Continuous\",\"minColor\":[255,0,0,64],\"maxColor\":[255,0,0,255]},\"featureRenderer\":{\"type\":\"simple\",\"symbol\":{\"type\":\"esriSMS\",\"style\":\"esriSMSCircle\",\"color\":[255,0,0,255],\"size\":12,\"angle\":0,\"xoffset\":0,\"yoffset\":0,\"outline\":{\"color\":[0,0,0,255],\"width\":1}},\"label\":\"\",\"description\":\"\"}}}",
+  "esriGeoHashes":[{"field_name":"triangle_v_102100","type":"triangle","wkid":102100,"precision":20,"orientation":"horizontal"},{"field_name":"triangle_h_102100","type":"triangle","wkid":102100,"precision":20,"orientation":"vertical"},{"field_name":"square_102100","type":"square","wkid":102100,"precision":20}]
+}
